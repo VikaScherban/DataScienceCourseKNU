@@ -1,2 +1,2 @@
 # DataScienceCourseKNU 
-This repository need for labaratory
+This repository need for laboratory
