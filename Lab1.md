@@ -173,3 +173,28 @@ Levels: baby child adult
 
 7.Створити довільний data frame та вивести в консоль.
 
+> df<-data.frame(row1=1:3,row2=c(TRUE,FALSE,FALSE),row3=c(4,7.6,8.2))
+
+> df
+
+  row1  row2 row3
+
+1    1  TRUE  4.0
+
+2    2 FALSE  7.6
+
+3    3 FALSE  8.2
+
+8.Змінити імена стовпців цього data frame.
+
+> names(df)<-c("foo1","foo2","foo3")
+
+> df
+
+  foo1  foo2 foo3
+
+1    1  TRUE  4.0
+
+2    2 FALSE  7.6
+
+3    3 FALSE  8.2
