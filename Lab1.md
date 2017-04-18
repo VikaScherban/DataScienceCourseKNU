@@ -112,3 +112,64 @@ char<-"hello"
 
 [4,] 2.0   7.0 5.1
 
+4.Створити довільний список (list), в який включити всі базові типи.
+
+ ls
+
+[[1]]
+
+[1] "string"
+
+
+[[2]]
+
+[1] 1.3
+
+
+[[3]]
+
+[1] 4
+
+
+[[4]]
+
+[1] 1+2i
+
+
+[[5]]
+
+[1] TRUE
+
+
+5.Створити фактор з трьома рівнями «baby», «child», «adult».
+
+ x<-factor(c("baby", "child", "adult", "baby", "child", "child", "adult", "baby", "child", "adult", "baby", "baby", "child", "adult", "baby"), levels = c("baby","child","adult"))
+
+ x
+
+ [1] baby  child adult baby  child child adult baby  child adult baby  baby  child adult
+
+[15] baby 
+
+Levels: baby child adult
+
+
+6.Знайти індекс першого значення NA в векторі 1, 2, 3, 4, NA, 6, 7, NA, 9, NA, 11. Знайти кількість значень NA.
+
+> vec<-c(1, 2, 3, 4, NA, 6, 7, NA, 9, NA, 11)
+
+> vec
+
+ [1]  1  2  3  4 NA  6  7 NA  9 NA 11
+
+> match(NA,vec)
+
+[1] 5
+
+
+> sum(is.na(vec))
+
+[1] 3
+
+7.Створити довільний data frame та вивести в консоль.
+
