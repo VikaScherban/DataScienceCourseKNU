@@ -32,7 +32,7 @@
 
 4.Виведіть останні 10 строк дата фрейму.
 
-> x[144:153,]
+> tail(x,10)
  
     Ozone Solar.R Wind Temp Month Day
 
